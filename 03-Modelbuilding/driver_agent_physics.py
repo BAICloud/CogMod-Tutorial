@@ -11,7 +11,7 @@ class driver_agent_physics(Env):
     def __init__(
         self,
         physics_env,
-        goal_reward = 8,
+        goal_reward = 6,
         collision_reward = -200,
         observation_var = 0,
         wait_penalty = 0.05,
