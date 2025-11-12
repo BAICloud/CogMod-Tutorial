@@ -12,7 +12,7 @@ class driver_agent_physics(Env):
         self,
         physics_env,
         goal_reward = 8,
-        collision_reward = -100,
+        collision_reward = -200,
         observation_var = 0,
         wait_penalty = 0.05,
         safe_gap_threshold = 8.0,
